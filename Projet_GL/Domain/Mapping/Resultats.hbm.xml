@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Domain"
+                   namespace="Domain">
+
+  <class name="Resultats" table="resultats">
+    <id name="resId" column="Resultats_id" type="int">
+      <generator class="native"></generator>
+    </id>
+    <property name="resDossard" column="Resultats_dossard" not-null="true"/>
+    <property name="resTemps" column="Resultats_temps" not-null="true"/>
+    <property name="partId" column="Participants_id" not-null="false"/>
+    <property name="courId" column="Courses_id" not-null="false"/>
+  </class>
+
+</hibernate-mapping>

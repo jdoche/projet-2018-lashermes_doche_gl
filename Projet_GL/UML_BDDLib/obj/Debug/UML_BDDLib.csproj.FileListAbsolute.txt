@@ -1,0 +1,5 @@
+H:\TP génie log\Projet_GL\Projet_GL\UML_BDDLib\bin\Debug\UML_BDDLib.dll
+H:\TP génie log\Projet_GL\Projet_GL\UML_BDDLib\bin\Debug\UML_BDDLib.pdb
+H:\TP génie log\Projet_GL\Projet_GL\UML_BDDLib\obj\Debug\UML_BDDLib.csprojResolveAssemblyReference.cache
+H:\TP génie log\Projet_GL\Projet_GL\UML_BDDLib\obj\Debug\UML_BDDLib.dll
+H:\TP génie log\Projet_GL\Projet_GL\UML_BDDLib\obj\Debug\UML_BDDLib.pdb

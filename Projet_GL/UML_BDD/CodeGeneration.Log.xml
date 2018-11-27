@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 14.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Génération de code/Journal de transformation de texte">
+  <MessageClass Name="Message" Label="Message" Option="Afficher les messages d'information" />
+  <MessageClass Name="Warning" Label="Avertissement" Option="Afficher les avertissements" />
+  <MessageClass Name="Error" Label="Erreur" Option="Afficher les erreurs" />
+  <MessageClass Name="Property" Label="Propriété" Option="Afficher les métadonnées" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Afficher les messages de diagnostic" />
+  <Message Timestamp="2018-11-19T09:29:17" Importance="High" Text="Génération du code ou transformation du texte démarrées." />
+  <Message Timestamp="2018-11-19T09:29:17" Importance="Diagnostic" Text="Nom = ClassTemplate" />
+  <Message Timestamp="2018-11-19T09:29:17" Importance="Diagnostic" Text="Remplacer = True" />
+  <Message Timestamp="2018-11-19T09:29:17" Importance="Diagnostic" Text="ProjectPath = ..\UML_BDDLib\UML_BDDLib.csproj" />
+  <Message Timestamp="2018-11-19T09:29:17" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2018-11-19T09:29:17" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2018-11-19T09:29:17" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2018-11-19T09:29:17" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2018-11-19T09:29:17" Importance="Medium" Text="La liaison de modèle de texte 'ClassTemplate' de UML_BDD appliquera ClassTemplate.t4 à 'UML_BDD::Participants' -  (Class), 'UML_BDD::Resultats' -  (Class), 'UML_BDD::Utilisateurs' -  (Class), 'UML_BDD::Courses' -  (Class), 'UML_BDD::Sponsors' -  (Class) " />
+  <Message Timestamp="2018-11-19T09:29:18" Importance="Medium" Text="'UML_BDD::Participants' -  (Class) : réussite (fichier remplacé) - H:\TP génie log\Projet_GL\Projet_GL\UML_BDDLib\GeneratedCode\Participants.cs" />
+  <Message Timestamp="2018-11-19T09:29:18" Importance="Medium" Text="'UML_BDD::Resultats' -  (Class) : réussite (fichier remplacé) - H:\TP génie log\Projet_GL\Projet_GL\UML_BDDLib\GeneratedCode\Resultats.cs" />
+  <Message Timestamp="2018-11-19T09:29:18" Importance="Medium" Text="'UML_BDD::Utilisateurs' -  (Class) : réussite (fichier remplacé) - H:\TP génie log\Projet_GL\Projet_GL\UML_BDDLib\GeneratedCode\Utilisateurs.cs" />
+  <Message Timestamp="2018-11-19T09:29:18" Importance="Medium" Text="'UML_BDD::Courses' -  (Class) : réussite (fichier remplacé) - H:\TP génie log\Projet_GL\Projet_GL\UML_BDDLib\GeneratedCode\Courses.cs" />
+  <Message Timestamp="2018-11-19T09:29:18" Importance="Medium" Text="'UML_BDD::Sponsors' -  (Class) : réussite (fichier remplacé) - H:\TP génie log\Projet_GL\Projet_GL\UML_BDDLib\GeneratedCode\Sponsors.cs" />
+  <Message Timestamp="2018-11-19T09:29:18" Importance="Diagnostic" Text="Nom = StructTemplate" />
+  <Message Timestamp="2018-11-19T09:29:18" Importance="Diagnostic" Text="Remplacer = True" />
+  <Message Timestamp="2018-11-19T09:29:18" Importance="Diagnostic" Text="ProjectPath = ..\UML_BDDLib\UML_BDDLib.csproj" />
+  <Message Timestamp="2018-11-19T09:29:18" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2018-11-19T09:29:18" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2018-11-19T09:29:18" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2018-11-19T09:29:18" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2018-11-19T09:29:18" Importance="Medium" Text="La liaison de modèle de texte 'StructTemplate' de UML_BDD appliquera StructTemplate.t4 à 'UML_BDD::Participants' -  (Class), 'UML_BDD::Resultats' -  (Class), 'UML_BDD::Utilisateurs' -  (Class), 'UML_BDD::Courses' -  (Class), 'UML_BDD::Sponsors' -  (Class) " />
+  <Message Timestamp="2018-11-19T09:29:18" Importance="Diagnostic" Text="'UML_BDD::Participants' -  (Class) : aucun fichier n'a été généré, car la méthode 'AppliesToElement' du modèle 'StructTemplate.t4' a été évaluée comme false." />
+  <Message Timestamp="2018-11-19T09:29:18" Importance="Diagnostic" Text="'UML_BDD::Resultats' -  (Class) : aucun fichier n'a été généré, car la méthode 'AppliesToElement' du modèle 'StructTemplate.t4' a été évaluée comme false." />
+  <Message Timestamp="2018-11-19T09:29:18" Importance="Diagnostic" Text="'UML_BDD::Utilisateurs' -  (Class) : aucun fichier n'a été généré, car la méthode 'AppliesToElement' du modèle 'StructTemplate.t4' a été évaluée comme false." />
+  <Message Timestamp="2018-11-19T09:29:19" Importance="Diagnostic" Text="'UML_BDD::Courses' -  (Class) : aucun fichier n'a été généré, car la méthode 'AppliesToElement' du modèle 'StructTemplate.t4' a été évaluée comme false." />
+  <Message Timestamp="2018-11-19T09:29:19" Importance="Diagnostic" Text="'UML_BDD::Sponsors' -  (Class) : aucun fichier n'a été généré, car la méthode 'AppliesToElement' du modèle 'StructTemplate.t4' a été évaluée comme false." />
+  <Message Timestamp="2018-11-19T09:29:19" Importance="Diagnostic" Text="La sélection comprenait 6 éléments qui n'étaient pas liés à un modèle." />
+  <Message Timestamp="2018-11-19T09:29:19" Importance="Diagnostic" Text="'UML_BDD::' -  (Association) : aucun modèle lié." />
+  <Message Timestamp="2018-11-19T09:29:19" Importance="Diagnostic" Text="'UML_BDD::' -  (Association) : aucun modèle lié." />
+  <Message Timestamp="2018-11-19T09:29:19" Importance="Diagnostic" Text="'UML_BDD::' -  (Association) : aucun modèle lié." />
+  <Message Timestamp="2018-11-19T09:29:19" Importance="Diagnostic" Text="'UML_BDD::' -  (Association) : aucun modèle lié." />
+  <Message Timestamp="2018-11-19T09:29:19" Importance="Diagnostic" Text="'UML_BDD::' -  (Association) : aucun modèle lié." />
+  <Message Timestamp="2018-11-19T09:29:19" Importance="Diagnostic" Text="'UML_BDD::' -  (Association) : aucun modèle lié." />
+  <Message Timestamp="2018-11-19T09:29:19" Importance="High" Text="Génération du code terminée. Erreurs : 0. Avertissements : 0." />
+</Log>

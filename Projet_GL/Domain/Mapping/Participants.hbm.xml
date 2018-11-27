@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Domain"
+                   namespace="Domain">
+
+  <class name="Participants" table="participants">
+    <id name="partId" column="Participants_id" type="int">
+      <generator class="native"></generator>
+    </id>
+    <property name="partNom" column="Participants_nom" not-null="true"/>
+    <property name="partPrenom" column="Participants_prenom" not-null="true"/>
+    <property name="partAnnee" column="Participants_annee" not-null="true"/>
+    <property name="partSexe" column="Participants_sexe" not-null="true"/>
+    <property name="partCourriel" column="Participants_courriel" not-null="true"/>
+    <property name="partLicence" column="Participants_licence" not-null="false"/>
+  </class>
+
+</hibernate-mapping> 

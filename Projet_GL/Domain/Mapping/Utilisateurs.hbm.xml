@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Domain"
+                   namespace="Domain">
+
+  <class name="Utilisateurs" table="utilisateurs">
+    <id name="utilId" column="Utilisateurs_id" type="int">
+      <generator class="native"></generator>
+    </id>
+    <property name="utilNom" column="Utilisateurs_nom" not-null="true"/>
+    <property name="utilMdp" column="Utilisateurs_mdp" not-null="true"/>
+    <property name="utilLogin" column="Utilisateurs_login" not-null="true"/>
+   
+  </class>
+
+</hibernate-mapping>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Domain"
+                   namespace="Domain">
+
+  <class name="Courses" table="courses">
+    <id name="courId" column="Courses_id" type="int">
+      <generator class="native"></generator>
+    </id>
+    <property name="courDate" column="Courses_date" not-null="true"/>
+    <property name="courNom" column="Courses_nom" not-null="true"/>
+    <property name="courNbPartMax" column="Courses_nbParticipantsMax" not-null="true"/>
+    <property name="courDistance" column="Courses_distance " not-null="true"/>
+    <property name="courLieu" column="Courses_lieu" not-null="true"/>
+  </class>
+
+</hibernate-mapping>
